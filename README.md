@@ -1,21 +1,35 @@
-# Text RPG Python
+# 🏰 Text RPG Python
 
 Um RPG de texto desenvolvido em Python para praticar programação, lógica, estruturas de dados e orientação a objetos.
 
-## Funcionalidades planejadas
+## 🚀 Objetivos
+
+- Aprender Python na prática
+- Aplicar conceitos de POO
+- Trabalhar com Git e GitHub
+- Construir um projeto completo do zero
+
+## 📋 Funcionalidades Planejadas
 
 - [ ] Sistema de combate
-- [ ] Classes de personagens
-- [ ] Inventário
+- [ ] Classes de personagem
 - [ ] Sistema de níveis
+- [ ] Inventário
 - [ ] Loja
 - [ ] Missões
-- [ ] Salvamento de progresso
+- [ ] Bosses
+- [ ] Save em JSON
 
-## Tecnologias
+## 🛠 Tecnologias
 
 - Python
+- Git
+- GitHub
 
-## Objetivo
+## 📂 Estrutura do Projeto
 
-Projeto criado para aprimorar habilidades em Python e desenvolvimento de software.
+Em desenvolvimento.
+
+## 📈 Status
+
+🚧 Projeto em desenvolvimento
