@@ -44,6 +44,6 @@ Um RPG de texto desenvolvido em Python para praticar programação, lógica, est
 ## ▶️ Como executar
 
 ```bash
-git clone https://github.com/seu-usuario/text-rpg.git
+git clone https://github.com/matheuscampagnoldev/text-rpg.git
 cd text-rpg
 python main.py
