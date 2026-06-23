@@ -28,18 +28,22 @@ Um RPG de texto desenvolvido em Python para praticar programação, lógica, est
 
 ## 📂 Estrutura do Projeto
 
-text-rpg/
-│
-├── main.py            # Ponto de entrada do jogo
-├── game.py            # Loop principal do jogo
-│
-├── core/              # Motor do jogo (engine, batalha, utilidades)
-├── characters/        # Jogador e inimigos
-├── items/             # Sistema de inventário e itens
-├── world/             # Mundo, missões e loja
-├── data/              # Saves e dados do jogo (JSON)
-└── assets/            # Lore, textos e história
+- main.py → Entrada do jogo
+- game.py → Loop principal
+- core/ → Engine do jogo (batalha, utilidades)
+- characters/ → Jogador e inimigos
+- items/ → Inventário e itens
+- world/ → Missões e loja
+- data/ → Saves em JSON
+- assets/ → Lore e história
 
 ## 📈 Status
 
 🚧 Projeto em desenvolvimento
+
+## ▶️ Como executar
+
+```bash
+git clone https://github.com/seu-usuario/text-rpg.git
+cd text-rpg
+python main.py
