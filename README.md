@@ -28,7 +28,17 @@ Um RPG de texto desenvolvido em Python para praticar programação, lógica, est
 
 ## 📂 Estrutura do Projeto
 
-Em desenvolvimento.
+text-rpg/
+│
+├── main.py            # Ponto de entrada do jogo
+├── game.py            # Loop principal do jogo
+│
+├── core/              # Motor do jogo (engine, batalha, utilidades)
+├── characters/        # Jogador e inimigos
+├── items/             # Sistema de inventário e itens
+├── world/             # Mundo, missões e loja
+├── data/              # Saves e dados do jogo (JSON)
+└── assets/            # Lore, textos e história
 
 ## 📈 Status
 
