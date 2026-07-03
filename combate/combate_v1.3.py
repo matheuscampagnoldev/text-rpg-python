@@ -32,7 +32,7 @@ while True:
     if jogador == 1:
         print('⚔ Você ergue sua espada e avança contra o Troll!')
     elif jogador == 2:
-        print('Você ergue sua guarda!')
+        print('🛡 Você levanta seu escudo.')
     elif jogador == 3:
         print('Você corre para longe do Troll!')
         print('Você escapou para a floresta.')
@@ -49,38 +49,47 @@ while True:
 
     if jogador == 1 and troll == 1:
         os.system('cls' if os.name == 'nt' else 'clear')
+        print('⚔ Você ergue sua espada e avança contra o Troll!')
         print('Dano causado: {}'.format(atk_jogador))
         vida_troll -= atk_jogador
         print('Vida do Troll: {}'.format(vida_troll))
+        print('=════════════════════════')
+        print('⚔ Troll da Floresta ataca!')
         print('Dano recebido: {}'.format(atk_troll))
         vida_jogador -= atk_troll
         print('Sua vida: {}'.format(vida_jogador))
-        time.sleep(2)
+        time.sleep(3)
     
     elif jogador == 1 and troll == 2:
         os.system('cls' if os.name == 'nt' else 'clear')
-        print('Dano causado: {}'.format(atk_jogador - def_troll))
+        print('⚔ Você ergue sua espada e avança contra o Troll!')
+        print('O Troll da Floresta bloqueou seu ataque.')
+        print(' ')
+        print('Dano foi reduzido: {}'.format(atk_jogador - def_troll))
         vida_troll -= (atk_jogador - def_troll)
         print('Vida do Troll: {}'.format(vida_troll))
-        time.sleep(2)
+        time.sleep(3)
 
     elif jogador == 2 and troll == 1:
+        print('🛡 Você levanta seu escudo.')
         print('Dano recebido reduzido: {}'.format(atk_troll - def_jogador))
         vida_jogador -= (atk_troll - def_jogador)
         print('Sua vida: {}'.format(vida_jogador))
-        time.sleep(2)
+        time.sleep(3)
 
     elif jogador == 2 and troll == 2:
         print('O Troll da Floresta bloqueou seu ataque.')
         print('Você bloqueou o ataque do Troll da Floresta.')
-        time.sleep(2)
+        print('Nenhum dano foi causado.')
+        time.sleep(3)
 
     elif jogador == 1 and troll == 3:
+        print('⚔ Você ergue sua espada e avança contra o Troll!')
         print('Dano causado: {}'.format(atk_jogador))
         vida_troll -= atk_jogador
         print('Vida do Troll: {}'.format(vida_troll))
-        print('O Troll da Floresta fugiu do combate! Você venceu!')
-        time.sleep(2)
+        print('O Troll da Floresta se machucou de mais e fugiu do combate! Você venceu!')
+        time.sleep(3)
         break
 
     elif vida_jogador <= 0:
