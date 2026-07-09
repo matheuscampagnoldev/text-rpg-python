@@ -12,7 +12,7 @@ Um RPG de texto desenvolvido em Python para praticar programação, lógica, est
 ## 📋 Funcionalidades Planejadas
 
 - [x] Sistema de combate básico
-- [x] Sistema de combate Completo
+- [ ] Sistema de combate Completo
 - [ ] Classes de personagem
 - [ ] Sistema de níveis
 - [ ] Inventário
